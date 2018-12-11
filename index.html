@@ -6,6 +6,7 @@
     <!--Import materialize.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/map.css">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Ubezpieczenia Koszalin Roman Szymańczuk</title>
@@ -162,6 +163,15 @@
       </div>
     </section>
 
+    <section id="map" class="section scrollspy">
+      <div class="container">
+        <div class="row">
+          <h4 class="center">Znajdź nas</h4>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1387.9999701000409!2d16.18073793555064!3d54.1919691452535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4701cd17adb6852f%3A0xb02de372ac849efe!2sSzyma%C5%84czuk+Roman%2C+agent+ubezpieczeniowy+Warta+S.A.!5e0!3m2!1spl!2spl!4v1544519540100" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
     <!-- Kontakt -->
     <section id="contact" class="section section-contact scrollspy">
       <div class="container">
@@ -213,6 +223,8 @@
          emailjs.init("user_wwql1EOpzldQrihxAqJUp");
       })();
   </script>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         const sidenavElems = document.querySelectorAll('.sidenav');
